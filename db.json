@@ -1,12 +1,6 @@
 {
   "employee": [
     {
-      "name": "Eric",
-      "age": 40,
-      "designation": "Director",
-      "id": "005"
-    },
-    {
       "name": "Frank Brown",
       "age": 45,
       "designation": "Consultant",
@@ -55,9 +49,9 @@
       "id": "018"
     },
     {
-      "name": "Yogendra ",
+      "name": "Yogendra Kokate",
       "age": "24",
-      "designation": "Front-end",
+      "designation": "Software Developer",
       "id": "XOLyHaO"
     },
     {
@@ -71,6 +65,12 @@
       "age": "25",
       "designation": "Java Developer",
       "id": "Gdynf4U"
+    },
+    {
+      "name": "Mohan",
+      "age": "25",
+      "designation": "Data Analyst",
+      "id": "rgOPZ2y"
     }
   ]
 }

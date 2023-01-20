@@ -22,7 +22,7 @@ const Editpage = () => {
  };
 
  const getData = async () => {
-  const res = await axios(`http://localhost:8080/employee/${id}`);
+  const res = await axios(`https://json-server-employee-crud.vercel.app/employee/${id}`);
   const resData = await res.data;
   setcurrdata({
    ...currdata,

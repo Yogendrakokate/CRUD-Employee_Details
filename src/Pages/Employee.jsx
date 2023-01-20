@@ -4,8 +4,6 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Datacart from "../Component/datacart";
 import { getemployee } from "../Redux/action";
-import { MdOutlineArrowForwardIos } from "react-icons/md";
-import { GrFormPrevious } from "react-icons/gr";
 
 const EmployeeList = () => {
  const [page2, setpage2] = useState(1);

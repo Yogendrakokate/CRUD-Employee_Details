@@ -5,9 +5,10 @@ const getemployee = (params) => (dispatch) => {
  dispatch({ type: types.GET_DATA_REQUEST });
 
  return axios
-  .get(`http://localhost:8080/employee`, params)
+  .get(`https://json-server-employee-crud.vercel.app/employee`, params)
   .then((r) => {
-   dispatch({ type: types.GET_DATA_SUCCESS, payload: r.data });
+    dispatch({ type: types.GET_DATA_SUCCESS, payload: r.data });
+    console.log(r,"rrr")
   })
   .catch((e) => {
    dispatch({ type: types.GET_DATA_FAILUER });
@@ -18,7 +19,7 @@ const getemployee = (params) => (dispatch) => {
 const addemployee = (payload) => (dispatch) => {
  dispatch({ type: types.ADD_DATA_REQUEST });
  return axios
-  .post(`http://localhost:8080/employee`, payload)
+  .post(`https://json-server-employee-crud.vercel.app/employee`, payload)
   .then((r) => {
    dispatch({ type: types.ADD_DATA_SUCCESS, payload: r.data });
   })
@@ -30,7 +31,7 @@ const addemployee = (payload) => (dispatch) => {
 const updateemployee = (id, payload) => (dispatch) => {
  dispatch({ type: types.UPDATE_DATA_REQUEST });
  return axios
-  .patch(`http://localhost:8080/employee/${id}`, payload)
+  .patch(`https://json-server-employee-crud.vercel.app/employee/${id}`, payload)
   .then((r) => {
    dispatch({ type: types.UPDATE_DATA_SUCCESS, payload: r.data });
   })
@@ -42,7 +43,7 @@ const updateemployee = (id, payload) => (dispatch) => {
 const deleteemployee = (id) => (dispatch) => {
  dispatch({ type: types.DELETE_DATA_REQUEST });
  return axios
-  .delete(`http://localhost:8080/employee/${id}`)
+  .delete(`https://json-server-employee-crud.vercel.app/employee/${id}`)
   .then((r) => {
    dispatch({ type: types.DELETE_DATA_SUCCESS, payload: id });
   })
