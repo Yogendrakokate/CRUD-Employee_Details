@@ -1,0 +1,99 @@
+ .table_employee{
+    border-collapse: collapse;
+    margin:auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 40%;
+    justify-items: center;
+    margin-bottom: 2%;
+    box-shadow: rgba(226, 226, 231, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  .table_employee thead tr{
+    background-color: #E50914;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .namehed{
+    color: rgb(245, 252, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    padding: 1rem;
+  }
+  .empname{
+    color: rgb(227, 241, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size:1.5rem;
+  
+  }
+  
+
+  .form{
+    box-shadow: rgba(190, 190, 192, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 30%;
+    height:430px;
+    margin: auto;
+    padding: 1rem 0.5rem;
+  }
+  
+  .addname{
+    width: 60%;
+    height: 30px;
+    border-radius: 1rem;
+    color: rgb(147, 151, 151);
+    font-weight: 400;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  .addemp{
+    border-radius: 1rem;
+    background-color: #E50914;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    font-weight: 400;   
+    margin-top: 5%;
+    width: 40%;
+    height: 3rem;
+    border: none;
+  }
+  .addemp:hover{
+    font-size:large;
+    width: 42%;
+    background-color:#b10009;
+  }
+
+  .addnew{
+    color: rgb(229, 243, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size:1.8rem;
+  }
+  .pagination{
+    display: flex;
+    gap: 1rem;
+    width: 12%;
+    margin: auto;
+    height: 30px;
+    margin-right: 25%;
+  }
+  .pagination>button{
+    height: 30px;
+    color: red;
+    background-color: black;
+    border: none;
+  }
+  
+  .page{
+    height: 60px;
+    color: red;
+    margin-top: -6%;
+  }
+ 
+ 
